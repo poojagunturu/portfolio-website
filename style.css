@@ -135,10 +135,6 @@ main {
     margin-left: -15%;
 }
 
-#about-me > .about-me-test {
-    position: relative;
-}
-
 #about-me > .about-me-text > h1 {
     /* text-align: center; */
     padding: 2px;
@@ -151,7 +147,8 @@ main {
 
 #about-me > .about-me-text {
     position: relative;
-    top:20%;
+    /* top:20%; */
+    padding: 10% 0;
 }
 
 #work {
@@ -160,7 +157,7 @@ main {
 
 #work h1 {
     padding-top: 5%;
-    line-height: 0.2em;
+    line-height: 1.2em;
 }
 
 #work h4 {
@@ -261,6 +258,10 @@ footer > .footer-contact {
     #showcase {
         background-position: 75% 50%;
     }
+   
+    #about-me > .about-me-text {
+        padding: 35% 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -299,7 +300,7 @@ footer > .footer-contact {
     #navbar.responsive .icon {
       position: absolute;
     }
-    
+
     .project-section > .project-body h3 {
         line-height: 1.5em;
     }
@@ -340,5 +341,9 @@ footer > .footer-contact {
 
     main > #main-body > #work > .project-section {
         margin-bottom: 17%;
+    }
+
+    #about-me > .about-me-text {
+        padding: 50% 0;
     }
 }
