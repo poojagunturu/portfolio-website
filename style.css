@@ -344,6 +344,12 @@ footer > .footer-contact {
     }
 
     #about-me > .about-me-text {
+        padding: 35% 0;
+    }
+}
+
+@media (max-width: 375px) {
+    #about-me > .about-me-text {
         padding: 50% 0;
     }
 }
