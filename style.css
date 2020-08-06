@@ -87,8 +87,12 @@ main {
   background-color: #fff;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  z-index: -10;
 }
 
 #showcase .blurb {
@@ -127,16 +131,21 @@ main {
   background-position: -800px 0, 800px 0;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: absolute;
   height: 100vh;
   width: 100%;
   margin-top: 0;
   margin-left: -15%;
+  z-index:-10;
 }
 
 #about-me > .about-me-text > h1 {
   padding: 2px;
+  margin: 0;
 }
 
 #about-me > .about-me-text > h4 {
@@ -146,7 +155,14 @@ main {
 
 #about-me > .about-me-text {
   position: relative;
-  padding: 10% 0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2vh;
+  /* padding: 10% 0; */
 }
 
 #work {
@@ -232,6 +248,12 @@ footer > .footer-contact {
   display: inherit;
 }
 
+@media (min-width: 1441px) {
+  #about-me > .about-me-text {
+    font-size: 3vh;
+  }
+}
+
 @media (max-width: 1440px) {
   html,
   body {
@@ -252,7 +274,8 @@ footer > .footer-contact {
   }
 
   #about-me > .about-me-text {
-    padding: 35% 0;
+    /* padding: 35% 0; */
+    font-size: 1.7vh;
   }
 
   #about-me > .about-me-text > h4 {
@@ -349,12 +372,14 @@ footer > .footer-contact {
   }
 
   #about-me > .about-me-text {
-    padding: 35% 0;
+    /* padding: 35% 0; */
+    font-size: 1.6vh;
   }
 }
 
 @media (max-width: 375px) {
   #about-me > .about-me-text {
-    padding: 50% 0;
+    /* padding: 50% 0; */
+    font-size: 1.5vh;
   }
 }
