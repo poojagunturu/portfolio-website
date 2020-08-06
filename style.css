@@ -62,7 +62,7 @@ p {
 .sidenav {
   height: 100%;
   width: 0;
-  position: absolute;
+  position: fixed;
   z-index: 20;
   top: 0;
   right: 0;
@@ -387,5 +387,17 @@ footer > .footer-contact {
   #about-me > .about-me-text {
     /* padding: 50% 0; */
     font-size: 1.5vh;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  #showcase {
+    background-position: 68% 50%;
+    background-attachment: scroll;
+  }
+
+  #about-me > .about-me-back {
+    background-position: center center, center center !important;
+    background-attachment: scroll;
   }
 }
