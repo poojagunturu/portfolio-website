@@ -344,6 +344,7 @@ footer > .footer-contact {
 
   #showcase {
     background-position: 68% 50%;
+    background-attachment: scroll;
   }
 
   #showcase .blurb {
@@ -369,6 +370,11 @@ footer > .footer-contact {
 
   main > #main-body > #work > .project-section {
     margin-bottom: 17%;
+  }
+
+  #about-me > .about-me-back {
+    background-position: center center, center center !important;
+    background-attachment: scroll;
   }
 
   #about-me > .about-me-text {
