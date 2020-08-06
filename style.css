@@ -1,355 +1,355 @@
-html, body {
-    font-family: "Trebuchet MS", Ubuntu, sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
-    font-weight: 300;
+html,
+body {
+  font-family: "Trebuchet MS", Ubuntu, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 a {
-    text-decoration: none;
-    color: #00ffda;
-    font-size: 0.9em;
+  text-decoration: none;
+  color: #00ffda;
+  font-size: 0.9em;
 }
 
 p {
-    margin: 0.5em 0; 
+  margin: 0.5em 0;
 }
 
 #navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0 0;
-    background-color: #be00cc;
-    color: #00ffda;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    -webkit-box-shadow: 0 8px 6px -8px black;
-	   -moz-box-shadow: 0 8px 6px -8px black;
-	        box-shadow: 0 8px 6px -8px black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0;
+  background-color: #be00cc;
+  color: #00ffda;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  -webkit-box-shadow: 0 8px 6px -8px black;
+  -moz-box-shadow: 0 8px 6px -8px black;
+  box-shadow: 0 8px 6px -8px black;
 }
 
-#navbar li{
-    float: left;
+#navbar li {
+  float: left;
 }
 
-#navbar li:last-child{
-    float: right;
-    padding-right: 4em;
+#navbar li:last-child {
+  float: right;
+  padding-right: 4em;
 }
 
 #navbar li:first-child {
-    padding-left: 4em;
+  padding-left: 4em;
 }
 
 #navbar li a {
-    display: block;
-    text-align: center;
-    padding: 0.8em 1em;
-} 
+  display: block;
+  text-align: center;
+  padding: 0.8em 1em;
+}
 
 #navbar li a:hover {
-    color: #01aa91;
+  color: #01aa91;
 }
 
 #navbar .icon {
-    display: none;
+  display: none;
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    line-height: 2em;
-  }
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
 
 main {
-    margin-top: -30px;
-    margin-bottom: 15%;
+  margin-top: -30px;
+  margin-bottom: 15%;
 }
 
 #showcase {
-    height: 104vh;
-    width:100%;
-    background-image:url("./img/showcase.png");
-    background-color: #fff;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  height: 104vh;
+  width: 100%;
+  background-image: url("./img/showcase.png");
+  background-color: #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #showcase .blurb {
-    position: relative;
-    width: 30%;
-    top:30%;
-    left: 15%;
+  position: relative;
+  width: 30%;
+  top: 30%;
+  left: 15%;
 }
 
 #showcase .blurb > h2 {
-    line-height: 0em;
+  line-height: 0em;
 }
 
 #showcase .blurb > h3 {
-    line-height: 1.7em;
-    margin: 0;
-    font-weight: 400;
+  line-height: 1.7em;
+  margin: 0;
+  font-weight: 400;
 }
 
 #showcase .social-icons {
-    font-size: 3em;
-    color: #be00cc;
-    padding:5px;
+  font-size: 3em;
+  color: #be00cc;
+  padding: 5px;
 }
 
 #main-body {
-    margin: 0 15%;
+  margin: 0 15%;
 }
 
 #about-me {
-    /* display: inline-block; */
-    height: 100vh;
+  height: 100vh;
 }
 
 #about-me > .about-me-back {
-    background-image: url("./img/tri2.png"), url("./img/tri1.png");
-    background-position: -800px 0, 800px 0; 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    margin-top: -1.3rem;
-    margin-left: -15%;
+  background-image: url("./img/tri2.png"), url("./img/tri1.png");
+  background-position: -800px 0, 800px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  margin-left: -15%;
 }
 
 #about-me > .about-me-text > h1 {
-    /* text-align: center; */
-    padding: 2px;
+  padding: 2px;
 }
 
 #about-me > .about-me-text > h4 {
-    line-height: 2em;
-    font-weight: 400;
+  line-height: 2em;
+  font-weight: 400;
 }
 
 #about-me > .about-me-text {
-    position: relative;
-    /* top:20%; */
-    padding: 10% 0;
+  position: relative;
+  padding: 10% 0;
 }
 
 #work {
-    height: auto;
+  height: auto;
 }
 
 #work h1 {
-    padding-top: 5%;
-    line-height: 1.2em;
+  padding-top: 5%;
+  line-height: 1.2em;
 }
 
 #work h4 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .project-section {
-    height: fit-content;
-    margin-bottom: 12%;
-}
-
-
-.project-section > .project-back {
-    background-image: linear-gradient(180deg, rgb(190, 0, 204), rgb(0, 255, 217));
-    position: absolute;
-    border-radius: 40px;
-    margin-left: -7.5%;
-    margin-top: -3%;
-    width: 85%;
+  height: fit-content;
+  margin-bottom: 4%;
+  background-image: linear-gradient(180deg, rgb(190, 0, 204), rgb(0, 255, 217));
+  border-radius: 40px;
+  padding: 2% 6% 4% 6%;
+  margin-right: 0;
 }
 
 .project-section > .project-body {
-    margin-top: 8%;
-    position: relative;
-    color: rgb(231, 231, 231);
+  position: relative;
+  color: rgb(231, 231, 231);
 }
 
 .project-section > .project-body h3 {
-    line-height: 0.2em;
+  line-height: 0.2em;
 }
 
 .project-section > .project-body video {
-    width: 100%;
-    height: 70%;
+  width: 100%;
+  height: 70%;
 }
 
 .project-link {
-    padding-left: 5px;
-    font-size: 1.2em !important;
+  padding-left: 5px;
+  font-size: 1.2em !important;
 }
 
 .img-carousel {
-    text-align: center;
+  text-align: center;
 }
 
-.img-carousel button{
-    border: none;
-    background-color: rgba(0,0,0,0);
-    height: 3em;
-    width: 3em;
-    font-size: 1em;
-    color: rgb(119, 119, 119);
+.img-carousel button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  height: 3em;
+  width: 3em;
+  font-size: 1em;
+  color: rgb(119, 119, 119);
 }
 
-.img-carousel button:focus{
-    border: none;
-    outline: none;
-    color: rgb(68, 66, 66);
+.img-carousel button:focus {
+  border: none;
+  outline: none;
+  color: rgb(68, 66, 66);
 }
 
 .mySlides:not(:first-child) {
-    display:none;
-    text-align: center;
+  display: none;
+  text-align: center;
 }
 
 footer {
-    height: 7em;
-    font-weight: 300;
-    background-color: #be00cc;
-    color: #00ffda;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    -webkit-box-shadow: 0 0 4px 1px black;
-	   -moz-box-shadow: 0 0 4px 1px black;
-	        box-shadow: 0 0 4px 1px black;
+  height: 7em;
+  font-weight: 300;
+  background-color: #be00cc;
+  color: #00ffda;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0 0 4px 1px black;
+  -moz-box-shadow: 0 0 4px 1px black;
+  box-shadow: 0 0 4px 1px black;
 }
 
 footer > .footer-contact {
-    display: inherit;
+  display: inherit;
 }
 
 @media (max-width: 1440px) {
-    html, body {
-        font-size: 1.5vw;
-    }
+  html,
+  body {
+    font-size: 1.5vw;
+  }
 }
 
 @media (max-width: 1024px) {
-    html, body {
-        font-size: 2vw;
-    }
+  html,
+  body {
+    font-size: 2vw;
+  }
 }
-
 
 @media (max-width: 768px) {
-    #showcase {
-        background-position: 75% 50%;
-    }
-   
-    #about-me > .about-me-text {
-        padding: 35% 0;
-    }
+  #showcase {
+    background-position: 75% 50%;
+  }
+
+  #about-me > .about-me-text {
+    padding: 35% 0;
+  }
+
+  #about-me > .about-me-text > h4 {
+    font-weight: 600;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    #navbar {
-        padding-top: 15px;
-        font-size: 18px;
-    }
-
-    #navbar .icon {
-      float: right;
-      display: block;
-    }
-
-    #navbar .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-
-    #navbar .sidenav a {
-        padding: 8px 8px 8px 32px;
-        font-size: 25px;
-        display: block;
-        transition: 0.3s;
-      }
+  #navbar {
+    padding-top: 15px;
+    font-size: 18px;
   }
-  
+
+  #navbar .icon {
+    float: right;
+    display: block;
+  }
+
+  #navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #navbar .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+}
+
 @media screen and (max-width: 768px) {
-    /* #navbar.responsive {} */
-    #navbar .topnav {
-        display: none;
-    }
-    
-    #navbar.responsive .icon {
-      position: absolute;
-    }
-
-    .project-section > .project-body h3 {
-        line-height: 1.5em;
-    }
+  #navbar .topnav {
+    display: none;
   }
+
+  #navbar.responsive .icon {
+    position: absolute;
+  }
+
+  .project-section > .project-body h3 {
+    line-height: 1.5em;
+  }
+}
 
 @media (max-width: 800px) {
-    #showcase {
-        background-position: 70% 50%;
-    }
+  #showcase {
+    background-position: 70% 50%;
+  }
 
-    #navbar {
-        padding: 10px 0 0 0;
-        font-size: 2.8vw;
-    }
+  #navbar {
+    padding: 10px 0 0 0;
+    font-size: 2.8vw;
+  }
 }
 
 @media (max-width: 425px) {
-    html, body {
-        font-size: 3vw;
-    }
+  html,
+  body {
+    font-size: 3vw;
+  }
 
-    #showcase {
-        background-position: 68% 50%;
-    }
+  #showcase {
+    background-position: 68% 50%;
+  }
 
-    #showcase .blurb {
-        width: 37%;
-    }
+  #showcase .blurb {
+    width: 37%;
+  }
 
-    #navbar {
-        padding: 14px 0 0 0;
-        font-size: 3vw;
-    }
+  #navbar {
+    padding: 14px 0 0 0;
+    font-size: 3vw;
+  }
 
-    .project-section > .project-body {
-        padding-top: 0.5px;
-    }
+  .project-section {
+    padding: 2% 8% 6% 8%;
+  }
 
-    main > #main-body > #work > .project-section {
-        margin-bottom: 17%;
-    }
+  .project-section > .project-body {
+    padding-top: 0.5px;
+  }
 
-    #about-me > .about-me-text {
-        padding: 35% 0;
-    }
+  main > #main-body > #work > .project-section {
+    margin-bottom: 17%;
+  }
+
+  #about-me > .about-me-text {
+    padding: 35% 0;
+  }
 }
 
 @media (max-width: 375px) {
-    #about-me > .about-me-text {
-        padding: 50% 0;
-    }
+  #about-me > .about-me-text {
+    padding: 50% 0;
+  }
 }
