@@ -1,9 +1,9 @@
 html,
 body {
   font-family: "Trebuchet MS", Ubuntu, sans-serif;
-  margin: 0;
+  margin: -1px 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 1.2vw;
   font-weight: 300;
 }
 
@@ -21,6 +21,7 @@ p {
   list-style-type: none;
   margin: 0;
   padding: 0 0;
+  top:0;
   background-color: #be00cc;
   color: #00ffda;
   overflow: hidden;
@@ -77,7 +78,7 @@ p {
 
 main {
   margin-top: -30px;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 #showcase {
@@ -103,7 +104,7 @@ main {
 }
 
 #showcase .blurb > h2 {
-  line-height: 0em;
+  margin: 0.4em 0;
 }
 
 #showcase .blurb > h3 {
@@ -140,7 +141,7 @@ main {
   width: 100%;
   margin-top: 0;
   margin-left: -15%;
-  z-index:-10;
+  z-index: -10;
 }
 
 #about-me > .about-me-text > h1 {
@@ -148,7 +149,7 @@ main {
   margin: 0;
 }
 
-#about-me > .about-me-text > h4 {
+#about-me > .about-me-text > h3 {
   line-height: 2em;
   font-weight: 400;
 }
@@ -161,8 +162,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 2vh;
-  /* padding: 10% 0; */
+  /* font-size: 2vh; */
 }
 
 #work {
@@ -193,7 +193,26 @@ main {
 }
 
 .project-section > .project-body h3 {
-  line-height: 0.2em;
+  /* line-height: 0.2em; */
+  margin: 1em 0;
+}
+.project-section > .project-body > .dig-deep-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  align-items: center;
+}
+
+.project-section > .project-body .live-button {
+  border: none;
+  border-radius: 8px;
+  font-size: inherit;
+  font: inherit;
+  height: fit-content;
+  padding: 10px 12px; 
+  color: #be00cc;
+  background-color: #00ffda;
 }
 
 .project-section > .project-body video {
@@ -249,8 +268,8 @@ footer > .footer-contact {
 }
 
 @media (min-width: 1441px) {
-  #about-me > .about-me-text {
-    font-size: 3vh;
+  #navbar {
+    font-size: 1.3vw;
   }
 }
 
@@ -259,69 +278,20 @@ footer > .footer-contact {
   body {
     font-size: 1.5vw;
   }
+
+  #navbar {
+    font-size: 1.6vw;
+  }
 }
 
 @media (max-width: 1024px) {
   html,
   body {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 768px) {
-  #showcase {
-    background-position: 75% 50%;
+    font-size: 2vh;
   }
 
-  #about-me > .about-me-text {
-    /* padding: 35% 0; */
-    font-size: 1.7vh;
-  }
-
-  #about-me > .about-me-text > h4 {
-    font-weight: 600;
-  }
-}
-
-@media screen and (max-width: 768px) {
   #navbar {
-    padding-top: 15px;
-    font-size: 18px;
-  }
-
-  #navbar .icon {
-    float: right;
-    display: block;
-  }
-
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    font-size: 25px;
-    display: block;
-    transition: 0.3s;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #navbar .topnav {
-    display: none;
-  }
-
-  #navbar .icon {
-    font-size:1.5em;
-    padding:2px 10px;
-  }
-
-  .project-section > .project-body h3 {
-    line-height: 1.5em;
+    font-size: 2.1vh;
   }
 }
 
@@ -329,17 +299,65 @@ footer > .footer-contact {
   #showcase {
     background-position: 70% 50%;
   }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 1.5vh;
+  }
 
   #navbar {
-    padding: 10px 0 0 0;
-    font-size: 2.8vw;
+    font-size: 18px;
+  }
+
+  #navbar .topnav {
+    display: none;
+  }
+
+  #navbar .icon {
+    float: right;
+    display: block;
+    font-size: 1.5em;
+    padding: 2px 10px 4px 10px;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3vh;
+    margin-left: 50px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 2vh;
+    display: block;
+    transition: 0.3s;
+  }
+
+  #showcase {
+    background-position: 75% 50%;
+  }
+
+  #about-me > .about-me-text {
+    font-size: 1.5vh;
+  }
+
+  .project-section > .project-body h3 {
+    line-height: 1.5em;
+  }
+
+  .project-section > .project-body .live-button {
+    padding: 6px 8px;
   }
 }
 
 @media (max-width: 425px) {
   html,
   body {
-    font-size: 3vw;
+    font-size: 1.3vh;
   }
 
   #showcase {
@@ -352,7 +370,6 @@ footer > .footer-contact {
   }
 
   #navbar {
-    padding: 14px 0 0 0;
     font-size: 3vw;
   }
 
@@ -376,23 +393,11 @@ footer > .footer-contact {
     background-position: center center, center center !important;
     background-attachment: scroll;
   }
-
-  /* #about-me > .about-me-text {
-    /* padding: 35% 0; */
-    /* font-size: 1.6vh; */
 }
 
 @media (max-width: 375px) {
   #about-me > .about-me-text {
-    /* padding: 50% 0; */
-    font-size: 1.56vh;
-  }
-}
-
-@media (max-width: 321px) {
-  #about-me > .about-me-text {
-    /* padding: 50% 0; */
-    font-size: 1.5vh;
+    font-size: 1.3vh;
   }
 }
 
