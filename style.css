@@ -366,6 +366,14 @@ footer > .footer-contact {
     font-size: 1.3vh;
   }
 
+  #navbar {
+    font-size: 3vw;
+  }
+
+  #navbar .icon {
+    font-size: 2.5em;
+  }
+
   #showcase {
     background-position: 68% 50%;
     background-attachment: scroll;
@@ -375,12 +383,12 @@ footer > .footer-contact {
     width: 37%;
   }
 
-  #navbar {
-    font-size: 3vw;
+  #showcase .blurb > h3 {
+    font-weight: 600;
   }
 
-  #navbar .icon {
-    font-size: 2.5em;
+  #about-me > .about-me-text > h3 {
+    font-weight: 600;
   }
 
   .project-section {
