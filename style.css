@@ -287,10 +287,10 @@ footer > .footer-contact {
 }
 
 @media (max-width: 1440px) {
-  html,
+  /* html,
   body {
     font-size: 1.5vw;
-  }
+  } */
 
   #navbar {
     font-size: 1.6vw;
