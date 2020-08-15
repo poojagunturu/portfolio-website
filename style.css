@@ -201,18 +201,24 @@ main {
   flex-direction: row;
   justify-content: space-between;
   height: fit-content;
-  align-items: center;
+  align-items: baseline;
 }
 
 .project-section > .project-body .live-button {
   border: none;
   border-radius: 8px;
-  font-size: inherit;
   font: inherit;
+  font-size: inherit;
+  font-weight: 600;
   height: fit-content;
   padding: 10px 12px; 
+  margin-left: 4px;
   color: #be00cc;
   background-color: #00ffda;
+}
+
+.project-section > .project-body h3 {
+  font-weight: 400;
 }
 
 .project-section > .project-body video {
@@ -392,6 +398,10 @@ footer > .footer-contact {
   #about-me > .about-me-back {
     background-position: center center, center center !important;
     background-attachment: scroll;
+  }
+
+  .project-section > .project-body h3 {
+    font-weight: 600;
   }
 }
 
