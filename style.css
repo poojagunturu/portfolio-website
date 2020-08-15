@@ -256,8 +256,7 @@ main {
 }
 
 footer {
-  height: 7em;
-  font-weight: 300;
+  height: 8em;
   background-color: #be00cc;
   color: #00ffda;
   display: flex;
@@ -271,6 +270,14 @@ footer {
 
 footer > .footer-contact {
   display: inherit;
+}
+
+#footer h3 {
+  font-weight: 400;
+}
+
+#footer .footer-contact > h3:nth-child(even) {
+  display: none;
 }
 
 @media (min-width: 1441px) {
@@ -411,11 +418,39 @@ footer > .footer-contact {
   .project-section > .project-body h3 {
     font-weight: 600;
   }
+
+  footer {
+    height: 10em;
+  }
+
+  #footer h3 {
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 375px) {
   #about-me > .about-me-text {
     font-size: 1.3vh;
+  }
+}
+
+@media (max-width: 320px) {
+  footer {
+    height: 12em;
+  }
+  
+  #footer .footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer .footer-contact > h3:nth-child(even) {
+    display: inherit;
+  }
+
+  #footer .footer-contact > h3:nth-child(odd) {
+    display: none;
   }
 }
 
