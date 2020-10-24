@@ -2,6 +2,7 @@ var slideIndex = 1;
 document.getElementsByClassName("about-me-back")[0].style.height = `${document.getElementById("about-me").clientHeight}px`;
 // console.log(document.body.clientWidth);
 window.onscroll = function () {scrollFunction()};
+window.onresize = function () {document.getElementsByClassName("about-me-back")[0].style.height = `${document.getElementById("about-me").clientHeight}px`};
 
 function scrollFunction() {
   var h = document.documentElement.scrollTop - document.getElementById("about-me").offsetTop; 
