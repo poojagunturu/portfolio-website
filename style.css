@@ -354,14 +354,14 @@ main {
   background-color: rgba(0, 0, 0, 0);
   height: 3em;
   width: 3em;
-  font-size: 1em;
-  color: rgb(119, 119, 119);
+  font-size: 1.2em;
+  color: #be00cc;
 }
 
 .img-carousel button:focus {
   border: none;
   outline: none;
-  color: rgb(68, 66, 66);
+  color: #9700a1;
 }
 
 .mySlides:not(:first-child) {
