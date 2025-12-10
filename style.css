@@ -30,14 +30,30 @@ body {
   background: linear-gradient(180deg, #be00cc, #00ffda);
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 a {
   text-decoration: none;
   color: #00ffda;
   font-size: 0.9em;
 }
 
+
+
 p {
   margin: 0.5em 0;
+  line-height: 1.7;
 }
 
 #navbar {
@@ -52,6 +68,11 @@ p {
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
 }
 
 #navbar li {
@@ -70,7 +91,7 @@ p {
 #navbar li a {
   display: block;
   text-align: center;
-  padding: 2.8em 1em;
+  padding: 2.2em 1em;
   color: #be00cc;
   transition: 0.5s;
 }
@@ -89,6 +110,15 @@ p {
   display: block;
   padding: 0.8em 1em;
   transition: 0.5s;
+}
+
+.topnav .nav-item {
+  font-size: 0.8em;
+}
+
+.topnav .nav-item:hover,
+.topnav .nav-item:focus {
+  border-top: 8px solid;
 }
 
 .sidenav {
@@ -149,7 +179,7 @@ main {
 }
 
 #showcase .social-icons {
-  font-size: 3em;
+  font-size: 2em;
   color: #be00cc;
   padding: 5px;
 }
@@ -262,9 +292,16 @@ main {
   margin: 0;
 }
 
-#about-me > .about-me-text > h3 {
-  line-height: 2em;
-  font-weight: 400;
+#about-me > .about-me-text > p a {
+  color: #000;
+  border-bottom: 1px solid;
+  background-color: #00e0bf;
+}
+
+#about-me > .about-me-text > p a:hover,
+#about-me > .about-me-text > p a:focus {
+  border-bottom: 0;
+  background-color: #00d3b3;
 }
 
 #about-me > .about-me-text {
@@ -284,6 +321,10 @@ main {
 #work h1 {
   padding-top: 5%;
   line-height: 1.2em;
+}
+
+#work h3.work-subheading {
+  margin-top: 2rem;
 }
 
 #work h4 {
@@ -321,8 +362,10 @@ main {
 .project-section > .project-body .live-button {
   border: none;
   border-radius: 8px;
-  font: inherit;
-  font-size: inherit;
+  /* font: inherit; */
+  font-size: 18px;
+  letter-spacing: 0;
+  text-align: center;
   font-weight: 600;
   height: fit-content;
   padding: 10px 12px;
@@ -403,7 +446,7 @@ footer > .footer-contact {
 }
 
 #footer img {
-  height: 8rem;
+  height: 4rem;
   margin-top: 20px;
 }
 
@@ -414,9 +457,9 @@ footer > .footer-contact {
   }
 
   #navbar .logo {
-    height: 80px;
-    width: 78px;
-    padding: 1.1em 1em;
+    height: 64px;
+    width: 62px;
+    padding: 1em;
   }
 
   #about-me > .about-me-back > .cube {
@@ -524,6 +567,7 @@ footer > .footer-contact {
 
   .project-section > .project-body .live-button {
     padding: 6px 8px;
+    font-size: 14px;
   }
 
   #about-me > .about-me-back > .cube {
