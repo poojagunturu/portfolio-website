@@ -293,7 +293,7 @@ main {
 .project-section {
   height: fit-content;
   margin-bottom: 4%;
-  background-image: linear-gradient(180deg, rgb(190, 0, 204), rgb(0, 255, 217));
+  background-image: linear-gradient(180deg, rgb(92, 0, 98), rgb(190, 0, 204), rgb(0, 255, 217));
   border-radius: 40px;
   padding: 2% 6% 4% 6%;
   margin-right: 0;
@@ -615,3 +615,4 @@ footer > .footer-contact {
     background-attachment: scroll;
   }
 }
+
