@@ -46,7 +46,7 @@ body {
 a {
   text-decoration: none;
   color: #00ffda;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
 }
 
 
@@ -205,7 +205,7 @@ main {
 }
 
 #main-body {
-  margin: 0 15%;
+  margin: 0 10%;
 }
 
 #about-me {
@@ -334,7 +334,7 @@ main {
 .project-section {
   height: fit-content;
   margin-bottom: 4%;
-  background-image: linear-gradient(180deg, rgb(92, 0, 98), rgb(190, 0, 204), rgb(0, 255, 217));
+  background-image: linear-gradient(180deg, rgb(92, 0, 98) 0%, rgb(190, 0, 204) 40%, rgb(0, 255, 217) 100%);
   border-radius: 40px;
   padding: 2% 6% 4% 6%;
   margin-right: 0;
@@ -351,19 +351,28 @@ main {
 .project-section > .project-body h3 {
   margin: 1em 0;
 }
+
+.project-section > .project-body h4 {
+  font-size: 1.2em;
+}
+
 .project-section > .project-body > .dig-deep-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: fit-content;
-  align-items: baseline;
+  align-items: center;
+}
+
+@media screen {
+  
 }
 
 .project-section > .project-body .live-button {
   border: none;
   border-radius: 8px;
   /* font: inherit; */
-  font-size: 18px;
+  font-size: 1em;
   letter-spacing: 0;
   text-align: center;
   font-weight: 600;
@@ -399,6 +408,7 @@ main {
   width: 3em;
   font-size: 1.2em;
   color: #be00cc;
+  cursor: pointer;
 }
 
 .img-carousel button:focus {
@@ -441,8 +451,8 @@ footer > .footer-contact {
   color: #be00cc;
 }
 
-#footer .footer-contact > h3:nth-child(even) {
-  display: none;
+#footer .footer-contact > h3:first-child span {
+  padding: 0 24px;
 }
 
 #footer img {
@@ -633,11 +643,11 @@ footer > .footer-contact {
     font-weight: 600;
   }
 
-  #footer .footer-contact > h3:nth-child(even) {
+  /* #footer .footer-contact > h3:nth-child(even) {
     display: inherit;
-  }
+  } */
 
-  #footer .footer-contact > h3:nth-child(odd) {
+  #footer .footer-contact > h3:nth-child(1) span {
     display: none;
   }
 
