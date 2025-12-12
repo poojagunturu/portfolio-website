@@ -49,15 +49,17 @@ function scrollFunction() {
   }
 }
 
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs((slideIndex += n));
+function plusDivs1(n) {
+  showDivs1((slideIndex += n));
 }
 
-function showDivs(n) {
+function plusDivs2(n) {
+  showDivs2((slideIndex += n));
+}
+
+function showDivs1(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("slides-1");
   if (n > x.length) {
     slideIndex = 1;
   }
@@ -69,6 +71,25 @@ function showDivs(n) {
   }
   x[slideIndex - 1].style.display = "block";
 }
+
+showDivs1(slideIndex);
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("slides-2");
+  if (n > x.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = x.length;
+  }
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex - 1].style.display = "block";
+}
+
+showDivs2(slideIndex);
 
 function myFunction() {
   var x = document.getElementById("myTopnav");

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="description" content="Pooja Gunturu - Portfolio.">
     <meta name="keywords" content="Pooja Gunturu, Venkata Pooja Gunturu, Gunturu Pooja, GV Pooja, Pooja G, vpg, VPG">
@@ -11,208 +11,255 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/c2328bb2b8.js"></script>
     <title>Pooja Gunturu - Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav aria-label="main navigation">
-        <div id="navbar">
-            <div class="topnav">
-              <ul>
-                <li><img src="./img/logo/logo_thick.png" alt="VPG logo" class="logo"></li>
-                <li><a class="nav-item" href="#showcase">HOME</a></li>
-                <li><a class="nav-item" href="#main-body">ABOUT ME</a></li>
-                <li><a class="nav-item" href="#work">WORK</a></li>
-                <li><a class="nav-item" href="./Resume.pdf" target="_blank">RESUME</a></li>
-                <li><a class="nav-item" href="#footer">CONTACT</a></li>
-              </ul>
-            </div>
-            <div>
-              <ul class="icon">
-                <li><img src="./img/logo/logo_thick.png" alt="VPG logo" class="logo"></li>
-                <li><a href="javascript:void(0);" onclick="openNav()">&#9776;</a></li>
-              </ul>
-            </div>
+      <div id="navbar">
+        <div class="topnav">
+          <ul>
+            <li><img src="./img/logo/logo_thick.png" alt="VPG logo" class="logo"></li>
+            <li>
+              <a class="nav-item" href="#showcase">HOME</a>
+            </li>
+            <li>
+              <a class="nav-item" href="#main-body">ABOUT ME</a>
+            </li>
+            <li>
+              <a class="nav-item" href="#work">WORK</a>
+            </li>
+            <li>
+              <a class="nav-item" href="./Resume.pdf" target="_blank">RESUME</a>
+            </li>
+            <li>
+              <a class="nav-item" href="#footer">CONTACT</a>
+            </li>
+          </ul>
         </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#showcase" onclick="closeNav()">Home</a>
-            <a href="#main-body" onclick="closeNav()">About me</a>
-            <a href="#work" onclick="closeNav()">Work</a>
-            <a href="./Resume.pdf" target="_blank" onclick="closeNav()">Resume</a>
-            <a href="#footer" onclick="closeNav()">Contact</a>
+        <div>
+          <ul class="icon">
+            <li><img src="./img/logo/logo_thick.png" alt="VPG logo" class="logo"></li>
+            <li>
+              <a href="javascript:void(0);" onclick="openNav()">&#9776;</a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#showcase" onclick="closeNav()">Home</a>
+        <a href="#main-body" onclick="closeNav()">About me</a>
+        <a href="#work" onclick="closeNav()">Work</a>
+        <a href="./Resume.pdf" target="_blank" onclick="closeNav()">Resume</a>
+        <a href="#footer" onclick="closeNav()">Contact</a>
+      </div>
     </nav>
     <main>
-        <section id="showcase" aria-labelledby="site-title">
-          <h1 id="site-title" class="sr-only">Pooja Gunturu's </h1>
-          <div class="blurb">
-              <h2>Hi, I'm Pooja.</h2>
-              <p>I'm a Web Developer with a passion for UX design and a growing interest in AI and ways it can enhance interaction and accessibility on the web.&#10024;</p>
-              <a href="https://www.linkedin.com/in/poojagunturu" target="_blank">
-                  <span class="sr-only">Linkedin profile</span>
-                  <i class="fa fa-linkedin-square social-icons"></i>
-              </a>
-              <a href="https://www.github.com/poojagunturu" target="_blank">
-                  <span class="sr-only">Github profile</span>
-                  <i class="fa fa-github social-icons"></i>
-              </a>
-              <a href="https://dribbble.com/poojagunturu" target="_blank">
-                  <span class="sr-only">Dribbble profile</span>
-                  <i class="fa fa-dribbble social-icons"></i>
-              </a>
-          </div>
-          <a href="#main-body"><span class="sr-only">Click button to scroll down to the main body</span><i class="fa fa-chevron-down chevron"></i></a>
-        </section>
-        <div id="main-body">
-            <section id="about-me">
-                <div class="about-me-back">
-                    <div class="cube">
-                        <div class="cube_face cube_face_front"></div>
-                        <div class="cube_face cube_face_back"></div>
-                        <div class="cube_face cube_face_top"></div>
-                        <div class="cube_face cube_face_bottom"></div>
-                        <div class="cube_face cube_face_left"></div>
-                        <div class="cube_face cube_face_right"></div>
-                    </div>
-                    <div class="cube2">
-                        <div class="cube_face cube_face_front cube_pink"></div>
-                        <div class="cube_face cube_face_back cube_pink"></div>
-                        <div class="cube_face cube_face_top cube_pink"></div>
-                        <div class="cube_face cube_face_bottom cube_pink"></div>
-                        <div class="cube_face cube_face_left cube_pink"></div>
-                        <div class="cube_face cube_face_right cube_pink"></div>
-                    </div>
-                </div>
-                <div class="about-me-text">
-                    <h2>A Little About Me...</h2>
-                    <p>
-                        I am a skilled Frontend Developer with over four years of professional experience. My core competencies as a Web Developer are React, TypeScript, HTML, CSS and JavaScript. In my current job at Middlebury College, I got the opportunity to build several complex components such as a <a href="https://www.middlebury.edu/college/">clickable grid</a>, <a href="https://www.middlebury.edu/college#section-15833-label">an animated list of clickable bars that scroll on hover</a> and the most rewarding of all <a href="https://www.middlebury.edu/">the institution's homepage</a>. I wear many hats at my day job and have been deeply involved in various aspects of the design to development pipeline. I have also designed several components like <a href="https://www.middlebury.edu/student-financial-services/tuition-fees-and-payment/billing-information#undergraduate-billing-worksheet">an undergraduate billing worksheet</a> and <a href="https://www.middlebury.edu/institute/academics/degree-programs/international-policy-development/curriculum#projected-course-availability">a course curriculum component</a>. I deeply care about accessibility and have made it a core part of my development process. I am also constantly looking to improve the DX in the projects I maintain and took initiative in upgrading the build tool for the main frontend theme from Gulp to Vite. To make the pipeline from design to development more automated and efficient I am building a formal design system in Figma for the Middlebury theme leveraging features like Auto Layout and Figma MCP server. Lately, I have been exploring AI tools such as TensorFlow.js and experimenting with Google's Teachable Machine to discover and test different ways computer vision and speech recognition models can be used to evolve web UX. 
-                    </p>
-                </div>
-            </section>
-            <section id="work">
-                <h2>Projects I have worked on</h2>
-                <h3 class="work-subheading">Personal projects</h3>
-                <section class="project-section" id="project-1">
-                  <div class="project-body">
-                    <div class="project-title-with-button">
-                      <h4>ML based 'This or That' Quiz App | November 2025
-                          <a href="https://github.com/poojagunturu/ml-quiz-js" target="_blank">
-                            <span class="sr-only">Link to github repository for the book collection application</span>
-                            <i class="fa fa-github project-link"></i>
-                          </a>
-                      </h4>
-                      <a href="https://poojagunturu.github.io/ml-quiz-js/" class="live-button" target="_blank" style="color:#be00cc">Live Site</a>
-                    </div>
-                    <p><strong>Technology Stack: frontend -<span style="color:#00ebc7"> TensorFlow.js</span>, <span
-                                style="color:#00ebc7">Swiper</span>, <span
-                                style="color:#00ebc7">Vite</span>
-                    </p>
-                    <p>A 'This or That' quiz app that uses a computer vision model to detect user's head tilt direction and selects the option on the left or right based on the direction of tilt.
-                    </p>
-                    <h4>Demo:</h4>
-                    <video controls>
-                        <source src="videos/ml-quiz-js.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </section>
-                <section class="project-section" id="project-2">
-                    <div class="project-body">
-                        <div class="project-title-with-button">
-                            <h4>Dig Deep - Fintech Application | July 2020
-                                <a href="https://github.com/poojagunturu/dig-deep" target="_blank">
-                                    <span class="sr-only">Link to test site for the Dig Deep application</span>
-                                    <i class="fa fa-github project-link"></i>
-                                </a>
-                            </h4>
-                            <a href="https://poojagunturu.github.io/dig-deep/" class="live-button" target="_blank" style="color:#be00cc">Live Site</a>
-                        </div>
-                        <p><strong>Technology Stack: frontend - <span style="color:#00ebc7">ReactJS</span>, <span
-                                    style="color:#00ebc7">Semantic UI</span> | backend - <span
-                                    style="color:#00ebc7">SQLite Database</span></strong>
-                        </p>
-                        <p>Prototype for a fintech application idea with sample data.
-                            <!-- <a href="https://poojagunturu.github.io/dig-deep/#/" target="_blank">Go to live site
-                                &#10095;</a> -->
-                        </p>
-                        <h3>App screenshots:</h3>
-                        <div class="img-carousel">
-                            <img class="mySlides" src="img/dig-deep/desk1.png"
-                                onclick="window.open('img/dig-deep/desk1.png', '_blank');"
-                                alt="Screenshot of homepage showing a search bar to lookup stocks with clipart of a bull and a bear in the design"
-                                style="width:100%; height:100%">
-                            <img class="mySlides" src="img/dig-deep/desk2.png"
-                                onclick="window.open('img/dig-deep/desk2.png', '_blank');"
-                                alt="Screenshot of a stock page on a desktop screen showing several charts with price trends for the stock"
-                                style="width:100%; height:100%">
-                            <img class="mySlides" src="img/dig-deep/iphone.png"
-                                onclick="window.open('img/dig-deep/iphone.png', '_blank');"
-                                alt="Screenshot of a stock page on a mobile screen showing several charts with price trends for the stock"
-                                style="width:30%; height:70%; margin: 0px 35%;">
-
-                            <button onclick="plusDivs(-1)">&#10094;</button>
-                            <button onclick="plusDivs(1)">&#10095;</button>
-                        </div>
-                    </div>
-                </section>
-                <h3 class="work-subheading">Undergraduate projects</h3>
-                <section class="project-section" id="project-3">
-                    <div class="project-body">
-                      <h4>Jeeves - Restaurant Application | May 2019
-                          <a href="https://github.com/poojagunturu/jeeves/tree/master/clients/cooking" target="_blank">
-                            <span class="sr-only">Link to github repository for the Jeeves restaurant application</span>
-                            <i class="fa fa-github project-link"></i>
-                          </a>
-                      </h4>
-                      <p>
-                        <strong>Technology Stack: frontend -<span style="color:#00ebc7"> ReactJS</span>, <span style="color:#00ebc7">Material UI</span></strong>
-                      </p>
-                      <p>
-                        Senior Capstone project to handle everything from seating to order food in a restaurant.
-                        This is the page I worked on, it shows orders placed to the chefs in the kitchen. The orders are fetched from local storage.
-                      </p>
-                      <h4>Demo:</h4>
-                      <video controls>
-                          <source src="videos/jeeves.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                      </video>
-                    </div>
-                </section>
-                <section class="project-section" id="project-4">
-                  <div class="project-body">
-                    <h4>Bookstore Application | December 2019
-                        <a href="https://github.com/poojagunturu/book-collection" target="_blank">
-                          <span class="sr-only">Link to github repository for the book collection application</span>
-                          <i class="fa fa-github project-link"></i>
-                        </a>
-                    </h4>
-                    <p><strong>Technology Stack: frontend -<span style="color:#00ebc7"> ReactJS</span>, <span
-                                style="color:#00ebc7">Material UI</span> | backend -<span style="color:#00ebc7">
-                                MySQL Database</span></strong>
-                    </p>
-                    <p>Final project for Advanced Databases to view books, stored in a MySQL database, in the
-                        browser.
-                    </p>
-                    <h4>Demo:</h4>
-                    <video controls>
-                        <source src="videos/revengers.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </section>
-            </section>
+      <section id="showcase" aria-labelledby="site-title">
+        <h1 id="site-title" class="sr-only">Pooja Gunturu's
+        </h1>
+        <div class="blurb">
+          <h2>Hi, I'm Pooja.</h2>
+          <p>I'm a Web Developer with a passion for UX design and a growing interest in AI and ways it can enhance interaction and accessibility on the web.&#10024;</p>
+          <a href="https://www.linkedin.com/in/poojagunturu" target="_blank">
+            <span class="sr-only">Linkedin profile</span>
+            <i class="fa fa-linkedin-square social-icons"></i>
+          </a>
+          <a href="https://www.github.com/poojagunturu" target="_blank">
+            <span class="sr-only">Github profile</span>
+            <i class="fa fa-github social-icons"></i>
+          </a>
+          <a href="https://dribbble.com/poojagunturu" target="_blank">
+            <span class="sr-only">Dribbble profile</span>
+            <i class="fa fa-dribbble social-icons"></i>
+          </a>
         </div>
+        <a href="#main-body">
+          <span class="sr-only">Click button to scroll down to the main body</span>
+          <i class="fa fa-chevron-down chevron"></i>
+        </a>
+      </section>
+      <div id="main-body">
+        <section id="about-me">
+          <div class="about-me-back">
+            <div class="cube">
+              <div class="cube_face cube_face_front"></div>
+              <div class="cube_face cube_face_back"></div>
+              <div class="cube_face cube_face_top"></div>
+              <div class="cube_face cube_face_bottom"></div>
+              <div class="cube_face cube_face_left"></div>
+              <div class="cube_face cube_face_right"></div>
+            </div>
+            <div class="cube2">
+              <div class="cube_face cube_face_front cube_pink"></div>
+              <div class="cube_face cube_face_back cube_pink"></div>
+              <div class="cube_face cube_face_top cube_pink"></div>
+              <div class="cube_face cube_face_bottom cube_pink"></div>
+              <div class="cube_face cube_face_left cube_pink"></div>
+              <div class="cube_face cube_face_right cube_pink"></div>
+            </div>
+          </div>
+          <div class="about-me-text">
+            <h2>A Little About Me...</h2>
+            <p>
+              I am a skilled Frontend Developer with over four years of professional experience. My core competencies as a Web Developer are React, TypeScript, HTML, CSS and JavaScript. In my current job at Middlebury College, I got the opportunity to build several complex components such as a
+              <a href="https://www.middlebury.edu/college/">clickable grid</a>,
+              <a href="https://www.middlebury.edu/college#section-15833-label">an animated list of clickable bars that scroll on hover</a>
+              and the most rewarding of all
+              <a href="https://www.middlebury.edu/">the institution's homepage</a>. I wear many hats at my day job and have been deeply involved in various aspects of the design to development pipeline. I have also designed several components like
+              <a href="https://www.middlebury.edu/student-financial-services/tuition-fees-and-payment/billing-information#undergraduate-billing-worksheet">an undergraduate billing worksheet</a>
+              and
+              <a href="https://www.middlebury.edu/institute/academics/degree-programs/international-policy-development/curriculum#projected-course-availability">a course curriculum component</a>. I deeply care about accessibility and have made it a core part of my development process. I am also constantly looking to improve the DX in the projects I maintain and took initiative in upgrading the build tool for the main frontend theme from Gulp to Vite. To make the pipeline from design to development more automated and efficient I am building a formal design system in Figma for the Middlebury theme leveraging features like Auto Layout and Figma MCP server. Lately, I have been exploring AI tools such as TensorFlow.js and experimenting with Google's Teachable Machine to discover and test different ways computer vision and speech recognition models can be used to evolve web UX.
+            </p>
+          </div>
+        </section>
+        <section id="work">
+          <h2>Projects I have worked on</h2>
+          <h3 class="work-subheading">Personal projects</h3>
+          <section class="project-section" id="project-1">
+            <div class="project-body">
+              <div class="project-title-with-button">
+                <h4>ML based 'This or That' Quiz App | November 2025
+                  <a href="https://github.com/poojagunturu/ml-quiz-js" target="_blank">
+                    <span class="sr-only">Link to github repository for the book collection application</span>
+                    <i class="fa fa-github project-link"></i>
+                  </a>
+                </h4>
+                <a href="https://poojagunturu.github.io/ml-quiz-js/" class="live-button" target="_blank" style="color:#be00cc">Live Site</a>
+              </div>
+              <p>
+                <strong>Technology Stack: frontend -<span style="color:#00ebc7">
+                    TensorFlow.js</span>,
+                  <span style="color:#00ebc7">Swiper</span>,
+                  <span style="color:#00ebc7">Vite</span>
+                </p>
+              </p>
+              <p>A 'This or That' quiz app that uses a computer vision model to detect user's head tilt direction and selects the option on the left or right based on the direction of tilt.
+              </p>
+              <h4>Demo:</h4>
+              <video controls>
+                <source src="videos/ml-quiz-js.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
+          <section class="project-section" id="project-2">
+            <div class="project-body">
+              <div class="project-title-with-button">
+                <h4>Dig Deep - Fintech Application | July 2020
+                  <a href="https://github.com/poojagunturu/dig-deep" target="_blank">
+                    <span class="sr-only">Link to test site for the Dig Deep application</span>
+                    <i class="fa fa-github project-link"></i>
+                  </a>
+                </h4>
+                <a href="https://poojagunturu.github.io/dig-deep/" class="live-button" target="_blank" style="color:#be00cc">Live Site</a>
+              </div>
+              <p>
+                <strong>Technology Stack: frontend -
+                  <span style="color:#00ebc7">ReactJS</span>,
+                  <span style="color:#00ebc7">Semantic UI</span>
+                  | backend -
+                  <span style="color:#00ebc7">SQLite Database</span>
+                </strong>
+              </p>
+              <p>Prototype for a fintech application idea with sample data.
+                <!-- <a href="https://poojagunturu.github.io/dig-deep/#/" target="_blank">Go to live site
+                                                &#10095;</a> -->
+              </p>
+              <h3>App screenshots:</h3>
+              <div class="img-carousel">
+                <img class="mySlides slides-1" src="img/dig-deep/desk1.png" onclick="window.open('img/dig-deep/desk1.png', '_blank');" alt="Screenshot of homepage showing a search bar to lookup stocks with clipart of a bull and a bear in the design" style="width:100%; height:100%">
+                <img class="mySlides slides-1" src="img/dig-deep/desk2.png" onclick="window.open('img/dig-deep/desk2.png', '_blank');" alt="Screenshot of a stock page on a desktop screen showing several charts with price trends for the stock" style="width:100%; height:100%">
+                <img class="mySlides slides-1" src="img/dig-deep/iphone.png" onclick="window.open('img/dig-deep/iphone.png', '_blank');" alt="Screenshot of a stock page on a mobile screen showing several charts with price trends for the stock" style="width:30%; height:70%; margin: 0px 35%;">
+
+                <button onclick="plusDivs1(-1)">&#10094;</button>
+                <button onclick="plusDivs1(1)">&#10095;</button>
+              </div>
+            </div>
+          </section>
+          <h3 class="work-subheading">Undergraduate projects</h3>
+          <section class="project-section" id="project-3">
+            <div class="project-body">
+              <h4>Jeeves - Restaurant Application | May 2019
+                <a href="https://github.com/poojagunturu/jeeves/tree/master/clients/cooking" target="_blank">
+                  <span class="sr-only">Link to github repository for the Jeeves restaurant application</span>
+                  <i class="fa fa-github project-link"></i>
+                </a>
+              </h4>
+              <p>
+                <strong>Technology Stack: frontend -<span style="color:#00ebc7">
+                    ReactJS</span>,
+                  <span style="color:#00ebc7">Material UI</span>
+                </strong>
+              </p>
+              <p>
+                Senior Capstone project to handle everything from seating to order food in a restaurant.
+                                        This is the page I worked on, it shows orders placed to the chefs in the kitchen. The orders are fetched from local storage.
+              </p>
+              <h4>Demo:</h4>
+              <video controls>
+                <source src="videos/jeeves.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
+          <section class="project-section" id="project-4">
+            <div class="project-body">
+              <h4>Bookstore Application | December 2019
+                <a href="https://github.com/poojagunturu/book-collection" target="_blank">
+                  <span class="sr-only">Link to github repository for the book collection application</span>
+                  <i class="fa fa-github project-link"></i>
+                </a>
+              </h4>
+              <p>
+                <strong>Technology Stack: frontend -<span style="color:#00ebc7">
+                    ReactJS</span>,
+                  <span style="color:#00ebc7">Material UI</span>
+                  | backend -<span style="color:#00ebc7">
+                    MySQL Database</span>
+                </strong>
+              </p>
+              <p>Final project for Advanced Databases to view books, stored in a MySQL database, in the
+                                        browser.
+              </p>
+              <h4>Demo:</h4>
+              <video controls>
+                <source src="videos/revengers.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </section>
+        </section>
+        <section id="traning">
+          <h2>Traning/Courses I have completed</h2>
+          <section class="project-section" id="project-2">
+            <div class="img-carousel">
+                <img class="mySlides slides-2" src="img/certifications/tensorflow-js.jpg" onclick="window.open('img/certifications/tensorflow-js.jpg', '_blank');" alt="Certificate of completion for Machine Learning in JavaScript with TensorFlow.js" style="width:100%; height:100%">
+                <img class="mySlides slides-2" src="img/certifications/vite.jpg" onclick="window.open('img/certifications/vite.jpg', '_blank');" alt="Certificate of completion for Vite" style="width:100%; height:100%">
+                <img class="mySlides slides-2" src="img/certifications/performance-webpack.jpg" onclick="window.open('img/certifications/performance-webpack.jpg', '_blank');" alt="Certificate of completion for Web Performance with Webpack" style="width:100%; height:100%">
+                <img class="mySlides slides-2" src="img/certifications/webpack-fundamentals.jpg" onclick="window.open('img/certifications/webpack-fundamentals.jpg', '_blank');" alt="Certificate of completion for Webpack 4 Fundamentals" style="width:100%; height:100%">
+
+                <button onclick="plusDivs2(-1)">&#10094;</button>
+                <button onclick="plusDivs2(1)">&#10095;</button>
+              </div>
+          </section>
+        </section>
+      </div>
     </main>
     <footer id="footer">
-        <div class="footer-contact">
-            <h3><a href="tel:+15735785980">&#128222; +1 (573) 578-5980</a><span>|</span></h3>
-            <h3>&#128221;<a href="mailto:pooja.mktc@gmail.com"> POOJA.MKTC@GMAIL.COM</a></h3>
-        </div>
-        <img src="./img/logo/logo_thick.png" alt="VPG logo" class="logo">
-        <h3>&copy; 2025 BY VENKATA POOJA GUNTURU</h3>
+      <div class="footer-contact">
+        <h3>
+          <a href="tel:+15735785980">&#128222; +1 (573) 578-5980</a>
+          <span>|</span>
+        </h3>
+        <h3>&#128221;<a href="mailto:pooja.mktc@gmail.com">
+            POOJA.MKTC@GMAIL.COM</a>
+        </h3>
+      </div>
+      <img src="./img/logo/logo_thick.png" alt="VPG logo" class="logo">
+      <h3>&copy; 2025 BY VENKATA POOJA GUNTURU</h3>
     </footer>
     <script type="text/javascript" src="default.js"></script>
-</body>
+  </body>
 
 </html>
