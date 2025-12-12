@@ -139,7 +139,7 @@ a {
 
 .topnav .nav-item:hover,
 .topnav .nav-item:focus {
-  border-top: 8px solid;
+  border-top: 4px solid;
 }
 
 .sidenav {
