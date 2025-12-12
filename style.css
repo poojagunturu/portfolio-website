@@ -43,17 +43,38 @@ body {
   width: 1px;
 }
 
-a {
-  text-decoration: none;
-  color: #00ffda;
-  /* font-size: 0.9em; */
+h2 {
+  font-size: 24px;
 }
 
-
+h3 {
+  font-size: 20px;
+}
 
 p {
   margin: 0.5em 0;
   line-height: 1.7;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #00ffda;
+  /* font-size: 0.9em; */
 }
 
 #navbar {
@@ -324,7 +345,8 @@ main {
 }
 
 #work h3.work-subheading {
-  margin-top: 2rem;
+  margin-top: 3rem;
+
 }
 
 #work h4 {
@@ -353,19 +375,21 @@ main {
 }
 
 .project-section > .project-body h4 {
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
-.project-section > .project-body > .dig-deep-title {
+@media only screen and (min-width: 768px) {
+  .project-section > .project-body h4 {
+    font-size: 22px;
+  }
+}
+
+.project-section > .project-body > .project-title-with-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: fit-content;
   align-items: center;
-}
-
-@media screen {
-  
 }
 
 .project-section > .project-body .live-button {
